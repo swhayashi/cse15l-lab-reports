@@ -42,3 +42,23 @@ The ```ls``` command is used to list the contents of a directory.
    ```
 
    There was no error. The first command we used to set ```lecture1``` as the working directory. The second command ```ls``` listed its contents, which are displayed in the third line. They are ```Hello.class```, ```Hello.java```, ```messages```, and ```README```.
+
+2. We can use a directory as an argument for ```ls```. For example:
+
+   ```
+   [user@sahara ~]$ ls lecture1
+   Hello.class  Hello.java  messages  README
+   [user@sahara ~]$
+   ```
+
+   In this, our working directory is the root. We use the command ```ls lecture1``` to list all the contents of ```lecture1``` without actually setting it as our working directory. In the second line, the expected contents of ```lecture1``` are listed, and in the third line, we can see that the root is still our working directory.
+
+3. Finally, we can also use a file as an argument for ```ls```. For example:
+
+   ```
+   [user@sahara ~/lecture1]$ ls Hello.java
+   Hello.java
+   [user@sahara ~/lecture1]$
+   ```
+
+   Above, we have ```lecture1``` as our working directory. We use the command ```ls Hello.java``` and in the following line, it simply lists ```Hello.java```. There is no error, but it's a bit silly.
