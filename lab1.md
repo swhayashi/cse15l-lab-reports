@@ -9,3 +9,18 @@ The ```cd``` command is used to **c**hange **d**irectories.
     [user@sahara ~]$
     ```
    As indicated by the square brackets, our working directory changes to the root after running the command with no arguments. This is not an error!
+
+2. Suppose we added an argument to the ```cd``` command. This argument allows us to change our directory from the working directory to a specific directory *using a path from the working directory to the desired one.* For example, from the root directory we can use ```cd lecture1``` to select the ```lecture1``` directory:
+    ```
+    [user@sahara ~]$ cd lecture1
+    [user@sahara ~/lecture1]$
+    ```
+   There are no errors, and our working directory has changed to ```lecture1```. If we were to run the command again from here, however, we would see:
+   ```
+    [user@sahara ~/lecture1]$ cd lecture1
+    bash: cd: lecture1: No such file or directory
+    ```
+   This is an error, and it appears because the directory ```lecture1``` is already the working directory, and ```lecture1``` doesn't contain an additional directory called ```lecture1```.
+   
+
+2. The 
