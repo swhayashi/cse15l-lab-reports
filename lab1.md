@@ -1,2 +1,2 @@
-# Big Text
+# CSE 15L: Lab 1
 ---
