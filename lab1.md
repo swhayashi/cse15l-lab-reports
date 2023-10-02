@@ -1,7 +1,7 @@
-## CSE 15L: Lab Report 1
+# CSE 15L: Lab Report 1
 ---
 
-The ```cd``` command is used to **c**hange **d**irectories.
+## The ```cd``` command is used to **c**hange **d**irectories.
 ---
 
 1. Simply using ```cd``` with no additional arguments will take us to the root/home directory. In the following example, our working directory is ```lecture1``` when we run the ```cd``` command:
@@ -33,7 +33,7 @@ The ```cd``` command is used to **c**hange **d**irectories.
     ```
    We get the error because ```Hello.java``` is not a directory, and we can't *change directories* to something that isn't a directory.
 
-The ```ls``` command is used to list the contents of a directory.
+## The ```ls``` command is used to list the contents of a directory.
 ---
 
 1. Simply using ```ls``` with no arguments lists all contents in the current working directory. For example, with the directory ```lecture1``` as the working directory, we can use ```ls``` to list its contents:
