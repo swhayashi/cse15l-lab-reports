@@ -1,11 +1,11 @@
 # CSE 15L: Lab Report 1
 ---
 
-    **Author**: Sam Hayashi
+   **Author**: Sam Hayashi
     
-    **Date**: 10/02/2023
+   **Date**: 10/02/2023
     
-    **Section**: CSE 15L Lab, Mondays @ 10:00am - 11:50pm
+   **Section**: CSE 15L Lab, Mondays @ 10:00am - 11:50pm
 
 ## The ```cd``` command is used to **c**hange **d**irectories.
 ---
