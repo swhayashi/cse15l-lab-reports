@@ -8,3 +8,4 @@ The ```cd``` command is used to **c**hange **d**irectories.
     [user@sahara ~/lecture1]$ cd
     [user@sahara ~]$
     ```
+   As indicated by the square brackets, our working directory changes to the root after running the command with no arguments. This is not an error!
