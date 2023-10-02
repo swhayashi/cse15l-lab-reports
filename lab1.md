@@ -23,4 +23,10 @@ The ```cd``` command is used to **c**hange **d**irectories.
    This is an error, and it appears because the directory ```lecture1``` is already the working directory, and ```lecture1``` doesn't contain an additional directory called ```lecture1```.
    
 
-2. The 
+3. Lastly, if we target a specific file with the ```cd``` command instead of a directory, we will get an error message. In the below example, we try to select ```Hello.java```, a file inside of directory ```lecture1```, and see an error:
+
+    ```
+    [user@sahara ~/lecture1]$ cd Hello.java
+    bash: cd: Hello.java: Not a directory
+    ```
+   We get the error because ```Hello.java``` is not a directory, and we can't *change directories* to something that isn't a directory.
